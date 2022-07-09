@@ -1,3 +1,9 @@
 package com.example.gdgkotlin
 
-data class Movie()
+import androidx.annotation.DrawableRes
+
+data class Movie(
+    @DrawableRes val poster :Int,
+    val movieName : String,
+    val movieGenre : String,
+)
